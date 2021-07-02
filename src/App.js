@@ -30,9 +30,9 @@ function App() {
         <p className='aut'> - {quotes[count].author} </p>
         </div>
         
-        {/* BUTTON AND SHARE (TWETER) */}
+        {/* BUTTON AND SHARE (TWITTER) */}
         <div className='controls'>
-        <button className="share"> Share </button>
+        <button className="share" onClick={ URL="https://twitter.com/?lang=es" }> Share </button>
         <button onClick={() => SetCount(Selector) } >New Quote</button>
         </div>
         
